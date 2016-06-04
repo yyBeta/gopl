@@ -19,6 +19,6 @@ func oneSpace(str []byte) []byte {
 }
 
 func main() {
-	x := []byte(" hey what'up   hello  world !")
+	x := []byte(" hey what's up   hello  world !")
 	fmt.Printf("%s", oneSpace(x))
 }
