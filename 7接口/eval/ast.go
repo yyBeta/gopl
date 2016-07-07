@@ -34,7 +34,7 @@ type binary struct {
 
 // A call represents a function call expression, e.g., sin(x).
 type call struct {
-	fn   string // one of "pow", "sin", "sqrt"
+	fn   string // one of "pow", "sin", "sqrt"   ; add "min"
 	args []Expr
 }
 
