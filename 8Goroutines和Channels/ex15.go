@@ -44,7 +44,7 @@ func broadcaster() {
 			// clients' outgoing message channels.
 			for cli := range clients {
 				go func(m chan<- string) { m <- msg }(cli.msg)
-				// won't blocking but may cause goroutine leaks
+				// won't block but may cause goroutine leaks
 			}
 		case cli := <-entering:
 			clients[cli] = true
