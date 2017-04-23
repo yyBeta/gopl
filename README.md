@@ -1,4 +1,4 @@
-#gopl
+# gopl
 
 Go语言圣经《The Go Programming Language》的课程源码以及课题练习。
 
